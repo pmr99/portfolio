@@ -1,12 +1,13 @@
 import './App.css';
-import Body from './Components/body';
-import Footer from './Components/footer';
+import Home from './pages/home';
+import Film from './pages/film';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navibar from './Components/navbar';
 
 function App() {
   return (
     <div className="App">
-      <Body> </Body>
-      <Footer> </Footer>
+      <Navibar></Navibar>
     </div>
   );
 }
