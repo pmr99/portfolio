@@ -1,0 +1,115 @@
+
+
+
+
+.title-head {
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 55px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.main-header {
+    color: rgb(143, 0, 0);
+    font-family: arial, sans-serif;
+    font-size: 45px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    font-weight: bold;
+    
+
+}
+
+.second-header {
+    color: rgb(93, 93, 93);
+    font-family: arial, sans-serif;
+    font-size: 30px;
+    padding-top: 3px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+
+}
+
+.text {
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+
+
+
+.text-special {
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 50%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+
+.overall-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.wasteless-container {
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    
+}
+
+.wasteless-image{
+    width: 400px;
+    align-content: center;
+}
+
+
+.wasteless-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 400px;
+}
+
+.wasteless-para {
+    text-align: center;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.bigplanet_overall_container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+.bigplanet_container {
+    margin: 3%;
+}
+
+.fi_container {
+    margin:0.5%;
+}
