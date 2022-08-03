@@ -13,7 +13,7 @@ const Wasteless = () => {
             <h2 className="second-header"> Overview </h2>
             <p className = "text"> The lack of knowledge of personal waste production is a significant issue for Singaporeans. It makes it difficult for individuals to track and sustain efforts in reducing waste and recycling more as part of Singapore’s long-term goal of reducing waste generation by a third before 2030. According to Bloomberg, Singapore is one of the top solid waste producer per capita. While Singapore has managed to reduce its overall waste generation, particularly in industry through efforts like the EPHA for workplaces, more could be done to tackle waste production in households. My friends and I learnt that about only 17% of Singapore’s domestic waste was recycled, much lower than the 73% recycling rate for non-domestic waste. 
             </p>
-    
+            
             <p className = "text"> We were curious: <b>Why it is so difficult to reduce waste production in households?</b> </p>
             
             <h1 className="main-header"> Findings </h1>
