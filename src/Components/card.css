@@ -32,17 +32,6 @@
   margin-bottom: 5%;
 }
 
-@media only screen and (max-width: 700px) {
-  .profile-pic{
-    height: 40%;
-  }
-  .cardi {
-    height: 500px;
-    width: 100%;
-
-  }
-
-}
 
 .profile-text {
   position: absolute;
@@ -50,5 +39,19 @@
   top: 75%;
   margin-left: 12%;
   margin-right: 12%;
+}
+
+@media only screen and (max-width: 700px) {
+  .profile-pic{
+    height: 40%;
+  }
+  .cardi {
+    height: 520px;
+    width: 100%;
+  }
+  .profile-text {
+    top: 65%;
+  }
 
 }
+
