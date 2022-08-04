@@ -30,6 +30,7 @@ import hi9 from "../Img/hi9.png"
 import hi10 from "../Img/hi10.png"
 import hi11 from "../Img/hi11.png"
 import sitemap from "../Img/sitemap.png"
+import Footer from "../Components/footer"
 
 const Enfactum = () => {
     return (
@@ -213,10 +214,12 @@ const Enfactum = () => {
                 <div className = "fi_container">
                     <img src = {hi11} width = "350px" style= {{borderStyle: "solid"}}></img>
                 </div>
+                
 
             </div>
 
-            <p className = "text"> *Website content has been largely excluded in this version</p>
+            <p className = "text" style = {{fontSize: "small", textAlign: "center"}}> *Website content has been largely excluded in this version</p>
+            <Footer> </Footer>
         </div>
     )
 }

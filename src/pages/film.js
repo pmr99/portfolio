@@ -19,7 +19,6 @@ import Footer from "../Components/footer"
 const Film = () => {
     return (
         <div className = "page">
-            <h1 className = "film-header"> Film Stuff </h1>
             <h2 className = "film-subheader"> "Second Chance" </h2>
             <h3 className = "film-role"> Director, Writer </h3>
             <img className = "main-pic" src={Chance_1} alt="Second Chance" width = "1000px"/>

@@ -3,6 +3,7 @@ import home from "../Img/waste_home.png"
 import data from "../Img/waste_data.png"
 import leader from "../Img/waste_leader.png"
 import homepic from "../Img/Homepic.jpeg"
+import Footer from "../Components/footer"
 
 const Wasteless = () => {
     return (
@@ -13,7 +14,7 @@ const Wasteless = () => {
             <h2 className="second-header"> Overview </h2>
             <p className = "text"> The lack of knowledge of personal waste production is a significant issue for Singaporeans. It makes it difficult for individuals to track and sustain efforts in reducing waste and recycling more as part of Singapore’s long-term goal of reducing waste generation by a third before 2030. According to Bloomberg, Singapore is one of the top solid waste producer per capita. While Singapore has managed to reduce its overall waste generation, particularly in industry through efforts like the EPHA for workplaces, more could be done to tackle waste production in households. My friends and I learnt that about only 17% of Singapore’s domestic waste was recycled, much lower than the 73% recycling rate for non-domestic waste. 
             </p>
-            
+
             <p className = "text"> We were curious: <b>Why it is so difficult to reduce waste production in households?</b> </p>
             
             <h1 className="main-header"> Findings </h1>
@@ -40,7 +41,6 @@ const Wasteless = () => {
                         <p className = "wasteless-para"> The Homepage enables users to view their waste disposal at a glance, by displaying key information such as statistics of waste thrown by user in the current week and average waste thrown that week by all users. A visual is also provided for the user to gauge their own performance relative to the rest of the community.
                     </p>
                     </div>
-            
                 </div>
 
 
@@ -94,6 +94,7 @@ const Wasteless = () => {
             <h2 className ="second-header"> Ministry of Education</h2>
             <p className = "text"> MOE featured our efforts on their very own schoolbag site. They highlighted the efforts of our team with pictures of them at work designing and building the chute. More specifically, they acknowledged all the additional stuff we had to learn to create the project, as well as its hackathon beginnings.
             </p>
+            <Footer> </Footer>
 
 
             

@@ -23,6 +23,7 @@ import hip5 from "../Img/gleanhip5.png"
 import hip6 from "../Img/gleanhip6.png"
 import hip7 from "../Img/gleanhip7.png"
 import hip8 from "../Img/gleanhip8.png"
+import Footer from "../Components/footer"
 
 const Gleanbee = () => {
     return (
@@ -151,7 +152,7 @@ const Gleanbee = () => {
                     <img src = {hip8} width = "600px" style= {{borderStyle: "solid"}}></img>
                 </div>
             </div>
-
+            <Footer> </Footer>
             
 
         </div>
