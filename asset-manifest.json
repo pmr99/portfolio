@@ -1,20 +1,29 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9e659efd.css",
-    "main.js": "/portfolio/static/js/main.50153395.js",
+    "main.js": "/portfolio/static/js/main.4204fc5a.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/potato4.png": "/portfolio/static/media/potato4.8f03fc2d2259bbc2a5de.png",
+    "static/media/potato7.png": "/portfolio/static/media/potato7.eeb4dc62eb209dd02039.png",
+    "static/media/potato2.png": "/portfolio/static/media/potato2.7e07f8b345fdafd9af5c.png",
     "static/media/cake_3.png": "/portfolio/static/media/cake_3.b3f909f78fbb20b79d17.png",
     "static/media/chance_7.png": "/portfolio/static/media/chance_7.b7ca704f878faab9a30b.png",
+    "static/media/potato6.png": "/portfolio/static/media/potato6.c8842ec73f23fac17816.png",
+    "static/media/potato8.png": "/portfolio/static/media/potato8.9cc320e925cc2a497b28.png",
     "static/media/chance_6.png": "/portfolio/static/media/chance_6.744568232a8336a3fb5f.png",
     "static/media/chance_8.png": "/portfolio/static/media/chance_8.2248b5598078ecb5bdc8.png",
     "static/media/CakePoster.png": "/portfolio/static/media/CakePoster.80edc2d6acb8a878e11b.png",
+    "static/media/potato9.png": "/portfolio/static/media/potato9.eb25a82fcf7fc619fd62.png",
     "static/media/chance_9.png": "/portfolio/static/media/chance_9.7a73f0e913e505672714.png",
     "static/media/chance_3.png": "/portfolio/static/media/chance_3.d432285647f5d51bb162.png",
+    "static/media/potato5.png": "/portfolio/static/media/potato5.3b7170ef08e90728a85c.png",
     "static/media/cake_5.png": "/portfolio/static/media/cake_5.ff9301bd4868afad6069.png",
     "static/media/planet8.png": "/portfolio/static/media/planet8.38c0edec87a0e84bd317.png",
+    "static/media/potato1.png": "/portfolio/static/media/potato1.380fd54a85ab4aeca8b8.png",
     "static/media/cake_2.png": "/portfolio/static/media/cake_2.4297984a936737c7c9ee.png",
     "static/media/chance_2.png": "/portfolio/static/media/chance_2.4747d09803c7297a7406.png",
     "static/media/chance_4.png": "/portfolio/static/media/chance_4.d0ffba6cad7f57d4d616.png",
+    "static/media/potato10.png": "/portfolio/static/media/potato10.d9cc6171ae43990f2a01.png",
     "static/media/chance_5.png": "/portfolio/static/media/chance_5.0cdbc0ddb1461994b2e0.png",
     "static/media/cake_4.png": "/portfolio/static/media/cake_4.d29576b3c38c2b08aec5.png",
     "static/media/chance_1.png": "/portfolio/static/media/chance_1.58d852d7c4f3f8658907.png",
@@ -26,6 +35,7 @@
     "static/media/hi5.png": "/portfolio/static/media/hi5.8d30d7eb65db88bf4af3.png",
     "static/media/hi4.png": "/portfolio/static/media/hi4.a401add72d7cf5912877.png",
     "static/media/hi6.png": "/portfolio/static/media/hi6.ddd6c4f13e376aeaecd5.png",
+    "static/media/potato3.png": "/portfolio/static/media/potato3.18de4f15e8947d35fbe9.png",
     "static/media/icbcover.png": "/portfolio/static/media/icbcover.67bb3334d75a6099dd74.png",
     "static/media/planet3.png": "/portfolio/static/media/planet3.20a7ec3c5dec487a4f0a.png",
     "static/media/planet2.png": "/portfolio/static/media/planet2.59a7690266a608f16883.png",
@@ -82,11 +92,11 @@
     "static/media/waste_leader.png": "/portfolio/static/media/waste_leader.11a525d285a4d6574a5a.png",
     "index.html": "/portfolio/index.html",
     "main.9e659efd.css.map": "/portfolio/static/css/main.9e659efd.css.map",
-    "main.50153395.js.map": "/portfolio/static/js/main.50153395.js.map",
+    "main.4204fc5a.js.map": "/portfolio/static/js/main.4204fc5a.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e659efd.css",
-    "static/js/main.50153395.js"
+    "static/js/main.4204fc5a.js"
   ]
 }
