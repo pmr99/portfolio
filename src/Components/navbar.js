@@ -26,7 +26,7 @@ const Navibar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" >
             <Nav.Link as={Link} to="/">Fun Projects</Nav.Link>
-            <Nav.Link as={Link} to="/portfolio/Film">Film</Nav.Link>
+            <Nav.Link as={Link} to="/film">Film</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -35,10 +35,10 @@ const Navibar = () => {
     <div>
         <Routes>
             <Route path="/" element = {<Home/>}/>
-            <Route path="/portfolio/film" element = {<Film/>}/>
-            <Route path="/portfolio/enfactum" element = {<Enfactum/>}/>
-            <Route path="/portfolio/wasteless" element = {<Wasteless/>}/>
-            <Route path = "/portfolio/gleanbee" element = {<Gleanbee/>}/>
+            <Route path="/film" element = {<Film/>}/>
+            <Route path="/enfactum" element = {<Enfactum/>}/>
+            <Route path="/wasteless" element = {<Wasteless/>}/>
+            <Route path = "/gleanbee" element = {<Gleanbee/>}/>
         </Routes>
     </div>
 </Router>
