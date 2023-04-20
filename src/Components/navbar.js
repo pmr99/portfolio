@@ -14,6 +14,7 @@ import Enfactum from '../pages/enfactum';
 import Wasteless from '../pages/wasteless';
 import Gleanbee from '../pages/gleanbee';
 import Rumifico from '../pages/rumifico';
+import Crediblemind from '../pages/crediblemind';
 
 
 const Navibar = () => {
@@ -35,12 +36,13 @@ const Navibar = () => {
     </div>
     <div>
         <Routes>
-            <Route path="/portfolio" element = {<Home/>}/>
-            <Route path="/portfolio/film" element = {<Film/>}/>
-            <Route path="/portfolio/enfactum" element = {<Enfactum/>}/>
-            <Route path="/portfolio/wasteless" element = {<Wasteless/>}/>
+            <Route path = "/portfolio" element = {<Home/>}/>
+            <Route path = "/portfolio/film" element = {<Film/>}/>
+            <Route path = "/portfolio/enfactum" element = {<Enfactum/>}/>
+            <Route path = "/portfolio/wasteless" element = {<Wasteless/>}/>
             <Route path = "/portfolio/gleanbee" element = {<Gleanbee/>}/>
             <Route path = "/portfolio/rumifico" element = {<Rumifico/>}/>
+            <Route path = "/portfolio/crediblemind" element = {<Crediblemind/>}/>
         </Routes>
     </div>
 </Router>
