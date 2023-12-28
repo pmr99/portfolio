@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+
 import {
     BrowserRouter as Router,
     Routes,
@@ -15,6 +16,8 @@ import Wasteless from '../pages/wasteless';
 import Gleanbee from '../pages/gleanbee';
 import Rumifico from '../pages/rumifico';
 import Crediblemind from '../pages/crediblemind';
+import Design from '../pages/design';
+import Code from '../pages/code';
 
 
 const Navibar = () => {
@@ -23,12 +26,13 @@ const Navibar = () => {
     <div>
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand>Pradeep Mani Rathnam</Navbar.Brand>
+        <Navbar.Brand style = {{color: "white"}} as={Link} to="/">Pradeep Mani Rathnam</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" >
-            <Nav.Link as={Link} to="/portfolio">Fun Projects</Nav.Link>
-            <Nav.Link as={Link} to="/portfolio/film">Film</Nav.Link>
+            <Nav.Link as={Link} to="/design">Design</Nav.Link>
+            <Nav.Link as={Link} to="/code">Code</Nav.Link>
+            <Nav.Link as={Link} to="/Film">Film</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -36,13 +40,15 @@ const Navibar = () => {
     </div>
     <div>
         <Routes>
-            <Route path = "/portfolio" element = {<Home/>}/>
-            <Route path = "/portfolio/film" element = {<Film/>}/>
-            <Route path = "/portfolio/enfactum" element = {<Enfactum/>}/>
-            <Route path = "/portfolio/wasteless" element = {<Wasteless/>}/>
-            <Route path = "/portfolio/gleanbee" element = {<Gleanbee/>}/>
-            <Route path = "/portfolio/rumifico" element = {<Rumifico/>}/>
-            <Route path = "/portfolio/crediblemind" element = {<Crediblemind/>}/>
+            <Route path = "/" element = {<Home/>}/>
+            <Route path = "/design" element = {<Design/>}/>
+            <Route path = "/code" element = {<Code/>}/>
+            <Route path = "/film" element = {<Film/>}/>
+            <Route path = "/design/enfactum" element = {<Enfactum/>}/>
+            <Route path = "/code/wasteless" element = {<Wasteless/>}/>
+            <Route path = "/design/gleanbee" element = {<Gleanbee/>}/>
+            <Route path = "/code/rumifico" element = {<Rumifico/>}/>
+            <Route path = "/design/crediblemind" element = {<Crediblemind/>}/>
         </Routes>
     </div>
 </Router>
