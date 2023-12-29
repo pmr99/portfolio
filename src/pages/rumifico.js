@@ -31,6 +31,10 @@ const Rumifico = () => {
             <p className = "text"> HP approached my team with the problem statement of creating a way for users to share, transfer, and display photos and precious memories/moments to create better connections among users. My role in this project is primarily as a UX Researcher, UI Designer for the mobile component of the product, and Software Developer. Since HP provided us with the flexibility of altering the problem statement as we conduct our research, we started out by spending time to understand the problem space. 
             </p>
 
+            <div class="embed-responsive embed-responsive">
+                <iframe class="embed-responsive-item" style = {{width: "85%", height: "700px", padding: "10px"}} src="https://www.youtube.com/embed/ygsjQpHTgJ8?si=5wBMRg1TXeoCjEOC" allowFullScreen></iframe>
+
+            </div>
 
             <h2 className="second-header"> SET Factors </h2>
             <p className = "text" > We began by identifying the SET factors, which consists of Social, Economic, and Technological attributes relevant to the problem space. </p>

@@ -1,5 +1,4 @@
 import './card.css';
-import { useNavigate } from "react-router-dom";
 
 const CardAlt = (props) => {
     return (
