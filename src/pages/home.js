@@ -7,7 +7,7 @@ import { MdDesignServices } from "react-icons/md";
 
 const intoText = "Hey there, thanks a bunch for dropping by! This space is a mash-up of all the things I'm passionate about. Feel free to dig in and if you wanna chat about anything, just shoot me a message:)"
 const designDesription = "I've worked on diverse projects centered around crafting user centric solutions, spanning UI/UX, hardware design, and graphic design alike."
-const codeDescription = "Majoring in Computer Science, I've engaged in fun projects encompassing full-stack mobile and web development, database management, generative AI and other areas. "
+const codeDescription = "Majoring in Computer Science, I've engaged in fun projects and research, encompassing Full-Stack Mobile/Web Development, Database Management, Human Computer Interaction, Generative AI and other areas. "
 const filmDescription = "Filmmaking has been a passion of mine since I was 13, where I've found joy in both writing and directing. I aspire to further delve into this realm in the future."
 
 const Home = () => {

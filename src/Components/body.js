@@ -8,8 +8,10 @@ import gleanprofile from "../Img/gleanprofile.png"
 import rumcover from "../Img/rumcover.png"
 import crediblecover from "../Img/crediblecover.png"
 import workdaylogo from "../Img/workdaylogo.png"
+import chi from "../Img/chi.jpeg"
 
 const rumificoDesc = "Empowering Connections: Rumifico Redefines Parent-Child Communication for the College Journey, Fostering Seamless Interaction and Building Lasting Bonds."
+const researchDesc = "Authored 'Prompting for Discovery: Flexible Sense-Making for Al Art-Making with Dreamsheets' along with Shm Garanganao Almeda, J.D. Zamfirescu-Pereira, Kyu Won Kim, Bjoern Hartmann. Conditionally accepted to CHI 2024."
 
 const Body = () => {
     return (
@@ -42,6 +44,7 @@ const DesignBody = () => {
 const CodeBody = () => {
     return (
         <div className = "body-container">
+            <CardAlt classname = "cardi" name = "ACM CHI Conference 2024" role = "HCI Research Author" link = "https://arxiv.org/abs/2310.09985" img = {chi} text = {researchDesc}> </CardAlt>
             <CardAlt classname = "cardi" name = "Workday" role = "Android Developer" link = "https://www.workday.com/" img = {workdaylogo} text = "I'm an Android Developer at Workday, often collaborating with designers, project managers, and fellow engineers to deliver quality code as part of a feature team."> </CardAlt>
             <Card classname = "cardi" name = "WasteLess" role = "Co-founder / Software Developer / UI Designer" link = "/code/wasteless" img = {waste} text = "Domestic waste production is a significant problem in Singapore. I co-founded an IoT solution that tracks individual waste contribution to mitigate the diffusion of responsibility."> </Card>
             <CardAlt classname = "cardi" name = "Invention Corps Website" role = "Engineering Team Lead / Web Developer" link = "https://inventioncorps.org/index.html" img= {icbcover} text = "Originally developed in Vanilla HTML and CSS, it was troublesome to create regular updates to the Invention Corps website. We developed a new website using React, for better sustainability and ease of maintenance."> </CardAlt>
