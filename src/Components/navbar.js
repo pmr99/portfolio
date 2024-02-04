@@ -16,6 +16,7 @@ import Wasteless from '../pages/wasteless';
 import Gleanbee from '../pages/gleanbee';
 import Rumifico from '../pages/rumifico';
 import Crediblemind from '../pages/crediblemind';
+import Directorai from '../pages/directorai';
 import Design from '../pages/design';
 import Code from '../pages/code';
 
@@ -48,6 +49,7 @@ const Navibar = () => {
             <Route path = "/code/wasteless" element = {<Wasteless/>}/>
             <Route path = "/design/gleanbee" element = {<Gleanbee/>}/>
             <Route path = "/code/rumifico" element = {<Rumifico/>}/>
+            <Route path = "/code/directorai" element = {<Directorai/>}/>
             <Route path = "/design/crediblemind" element = {<Crediblemind/>}/>
         </Routes>
     </div>

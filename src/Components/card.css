@@ -30,6 +30,20 @@
     transform: scale(1.02);
   }
 
+  .viewproject {
+    margin-left: 40%;
+    margin-right: 40%;
+    cursor: pointer;
+    position: relative;
+    transition: all .2s ease-in-out; 
+  }
+
+  .viewproject:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+  }
+
+
   .cardihome {
     background-color: whitesmoke;
     cursor: pointer;
