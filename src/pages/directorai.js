@@ -12,7 +12,7 @@ const Directorai = () => {
             <h1 className="title-head"> DirectorAI </h1>
             <div className = "viewproject"> 
             <a href = "https://director-ai.vercel.app/#home" style = {{textDecoration:"none"}}>
-            <img  src={logo} alt="Home" height = "230px" style= {{paddingTop:"8px", paddingBottom: "0px"}} />
+            <img  src={logo} alt="Home" width = "100%" style= {{paddingTop:"8px", paddingBottom: "0px"}} />
             <p className="text" style = {{textAlign : "center"}}> <b> View Project </b> </p>
             </a>
             </div>
