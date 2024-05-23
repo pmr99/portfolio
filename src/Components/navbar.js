@@ -19,6 +19,7 @@ import Crediblemind from '../pages/crediblemind';
 import Directorai from '../pages/directorai';
 import Design from '../pages/design';
 import Code from '../pages/code';
+import Imagify from '../pages/imagify';
 
 
 const Navibar = () => {
@@ -51,6 +52,7 @@ const Navibar = () => {
             <Route path = "/code/rumifico" element = {<Rumifico/>}/>
             <Route path = "/code/directorai" element = {<Directorai/>}/>
             <Route path = "/design/crediblemind" element = {<Crediblemind/>}/>
+            <Route path = "/code/imagify" element = {<Imagify/>}/>
         </Routes>
     </div>
 </Router>
