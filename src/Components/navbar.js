@@ -20,6 +20,7 @@ import Directorai from '../pages/directorai';
 import Design from '../pages/design';
 import Code from '../pages/code';
 import Imagify from '../pages/imagify';
+import Pair from '../pages/pair'
 
 
 const Navibar = () => {
@@ -53,6 +54,7 @@ const Navibar = () => {
             <Route path = "/code/directorai" element = {<Directorai/>}/>
             <Route path = "/design/crediblemind" element = {<Crediblemind/>}/>
             <Route path = "/code/imagify" element = {<Imagify/>}/>
+            <Route path = "/code/pair" element = {<Pair/>}/>
         </Routes>
     </div>
 </Router>

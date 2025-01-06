@@ -11,6 +11,7 @@ import workdaylogo from "../Img/workdaylogo.png"
 import chi from "../Img/chi.jpeg"
 import titleai from "../Img/aifinaltitle.png"
 import Imagifylogo from "../Img/imagifylogo.png"
+import pairLogo from  "../Img/pairlogo.png"
 
 
 const rumificoDesc = "Empowering Connections: Rumifico Redefines Parent-Child Communication for the College Journey, Fostering Seamless Interaction and Building Lasting Bonds."
@@ -48,9 +49,10 @@ const DesignBody = () => {
 const CodeBody = () => {
     return (
         <div className = "body-container">
+            <Card classname = "cardi" name = "PaiR" role="Personal Project" link ="/code/pair" img = {pairLogo}  text = {"AI Driven Software Engineering Interviews utilizing OpenAI’s Realtime API and Speech-to-text + Text-to-text + Text-to-speech AI models."}> </Card>
+            <CardAlt classname = "cardi" name = "ACM CHI Conference 2024" role = "HCI Research Author" link = "https://arxiv.org/abs/2310.09985" img = {chi} text = {researchDesc}> </CardAlt>
             <Card classname = "cardi" name = "Imagify" role="Personal Project" link ="/code/imagify" img = {Imagifylogo}  text = {"Imagify is a tool that transforms your recent Spotify listening activity into a creative illustration using DALL·E 3 and Spotify's Developer tools. Can you guess your top 5 recently listened songs?"}> </Card>
             <Card classname = "cardi" name = "DirectorAI" role = "Personal Project" link = "/code/directorai" img = {titleai} text = {"As a writer, I've often contemplated the practical applications of Text-to-Image (TTI) and Large Language Models (LLM) in the creative process. DirectorAI is a web application that leverages ChatGPT and DALL·E-2 to generate personalized marketing video concepts."}> </Card>
-            <CardAlt classname = "cardi" name = "ACM CHI Conference 2024" role = "HCI Research Author" link = "https://arxiv.org/abs/2310.09985" img = {chi} text = {researchDesc}> </CardAlt>
             <CardAlt classname = "cardi" name = "Workday" role = "Android Developer" link = "https://www.workday.com/" img = {workdaylogo} text = "I'm an Android Developer at Workday, often collaborating with designers, project managers, and fellow engineers to deliver quality code as part of a feature team."> </CardAlt>
             <Card classname = "cardi" name = "WasteLess" role = "Co-founder / Software Developer / UI Designer" link = "/code/wasteless" img = {waste} text = "Domestic waste production is a significant problem in Singapore. I co-founded an IoT solution that tracks individual waste contribution to mitigate the diffusion of responsibility."> </Card>
             <CardAlt classname = "cardi" name = "Invention Corps Website" role = "Engineering Team Lead / Web Developer" link = "https://inventioncorps.org/index.html" img= {icbcover} text = "Originally developed in Vanilla HTML and CSS, it was troublesome to create regular updates to the Invention Corps website. We developed a new website using React, for better sustainability and ease of maintenance."> </CardAlt>

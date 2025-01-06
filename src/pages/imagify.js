@@ -22,7 +22,6 @@ const Imagify = () => {
             </div>
             
             <h1 className="main-header"> Presenting Imagify </h1>
-            <h2 className="second-header"> What is Imagify? </h2>
             <p className="text"> Imagify is a tool that transforms your recent Spotify listening activity into a creative illustration using . DALL·E 3 and Spotify's Developer tools. Can you guess your top 5 recently listened songs?
 
             </p>
