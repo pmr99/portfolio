@@ -17,7 +17,7 @@ const Pair = () => {
 
             <h1 className="title-head"> PaiR </h1>
             <div class="embed-responsive embed-responsive">
-                <iframe class="embed-responsive-item" style = {{width: "85%", height: "700px", padding: "10px"}} src="https://www.youtube.com/watch?v=ppv66OFRRoE" allowFullScreen></iframe>
+                <iframe class="embed-responsive-item" style = {{width: "85%", height: "700px", padding: "10px"}} src="https://www.youtube.com/embed/ppv66OFRRoE" allowFullScreen></iframe>
             </div>
             
             <h1 className="main-header"> Presenting PaiR </h1>

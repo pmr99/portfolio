@@ -12,8 +12,8 @@ const filmDescription = "Filmmaking has been a passion of mine since I was 13.  
 
 const Home = () => {
   return (
-    <div>
-      <div style = {{height: "100%"}}>
+    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+      <div style={{ flex: 1 }}>
       <h1 className = "title-head"> Pradeep Mani Rathnam </h1>
       <p className = "text" style = {{marginTop: "16px", marginLeft: "20%", marginRight: "20%", textAlign: "center"}}> {intoText} </p>
       <p className = "text" style = {{marginTop: "16px", marginLeft: "25%", marginRight: "25%", textAlign: "center"}}> <b> Checkout my latest projects, <a href="https://director-ai.vercel.app/#home">DirectorAI </a>  and <a href="https://imagify-six.vercel.app">Imagify </a></b></p>
