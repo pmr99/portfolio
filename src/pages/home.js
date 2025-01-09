@@ -16,7 +16,7 @@ const Home = () => {
       <div style={{ flex: 1 }}>
       <h1 className = "title-head"> Pradeep Mani Rathnam </h1>
       <p className = "text" style = {{marginTop: "16px", marginLeft: "20%", marginRight: "20%", textAlign: "center"}}> {intoText} </p>
-      <p className = "text" style = {{marginTop: "16px", marginLeft: "25%", marginRight: "25%", textAlign: "center"}}> <b> Checkout my latest projects, <a href="https://director-ai.vercel.app/#home">DirectorAI </a>  and <a href="https://imagify-six.vercel.app">Imagify </a></b></p>
+      <p className = "text" style = {{marginTop: "16px", marginLeft: "25%", marginRight: "25%", textAlign: "center"}}> <b> Checkout my latest projects: <a href="https://www.pradeepmanirathnam.com/code/pair">PaiR</a>, <a href="https://director-ai.vercel.app/#home">DirectorAI </a>  and <a href="https://imagify-six.vercel.app">Imagify </a></b></p>
       <div className = "body-container">
         <Homecard img = {<MdDesignServices size = "120px" style = {{margin : "auto"}}/>} header = "Design" link = "/design" description = {designDesription} />
         <Homecard img = {<FaLaptopCode size = "120px"/>} header = "Code" link = "/code" description = {codeDescription}/>
