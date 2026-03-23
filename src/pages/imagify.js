@@ -42,7 +42,7 @@ const Imagify = () => {
         Here is an example of a beautiful image generated via Imagify. (Try to guess my top 5 songs XD)
       </p>
 
-      <img src={image} alt="Imagify Generated Image" className="project-img" />
+      <img src={image} alt="Imagify generated artwork" className="project-img" />
 
       <h1 className="main-header">How does it work?</h1>
       <p className="text">
