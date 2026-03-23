@@ -1,17 +1,17 @@
 import './card.css';
 import { useNavigate } from "react-router-dom";
 
-const Card = (props) => {
-    let navigate = useNavigate();
-    return (
-        <div className = {props.classname} onClick = {() => navigate(props.link)}>
-            <h1 className= "heading"> {props.name} </h1>
-           <p> {props.role} </p>
-           <img className = "profile-pic" src={props.img} />
-           <p className = "profile-text"> {props.text}</p>
+const Card = ({ classname, name, role, link, img, text }) => {
+  const navigate = useNavigate();
 
-        </div>
-    )
-}
+  return (
+    <div className={classname} onClick={() => navigate(link)}>
+      <h2 className="heading">{name}</h2>
+      <p>{role}</p>
+      <img className="profile-pic" src={img} alt={name} />
+      <p className="profile-text">{text}</p>
+    </div>
+  );
+};
 
-export default Card
+export default Card;
