@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head><title>Mani - OAuth Return</title></head>
-<body><script>window.close()</script></body>
+<body>
+<p style="font-family:sans-serif;color:#666;text-align:center;margin-top:40px;font-size:14px">Completing bank connection...</p>
+<script>
+  // Relay Plaid OAuth params back to the local Mani app to complete handshake
+  window.location.href = 'http://localhost:5173/oauth-return' + window.location.search;
+</script>
+</body>
 </html>
