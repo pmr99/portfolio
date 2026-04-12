@@ -4,9 +4,6 @@
 <body>
 <p style="font-family:sans-serif;color:#666;text-align:center;margin-top:40px;font-size:14px">Completing bank connection...</p>
 <script>
-  // Store the exact URL the bank redirected to — Plaid needs this as receivedRedirectUri
-  sessionStorage.setItem('plaid_oauth_redirect_uri', window.location.href);
-
   // Allowlist of origins the app is allowed to run at
   var ALLOWED_ORIGINS = [
     'http://localhost:5173',
@@ -18,7 +15,10 @@
   var storedOrigin = localStorage.getItem('mani_app_origin');
   var appOrigin = ALLOWED_ORIGINS.includes(storedOrigin) ? storedOrigin : ALLOWED_ORIGINS[0];
 
-  window.location.href = appOrigin + '/oauth-return';
+  // Pass the full redirect URI (with oauth_state_id) as a URL param — sessionStorage is domain-scoped
+  // and won't cross from pradeepmanirathnam.com to localhost
+  var redirectUri = encodeURIComponent(window.location.href);
+  window.location.href = appOrigin + '/oauth-return?uri=' + redirectUri;
 </script>
 </body>
 </html>
