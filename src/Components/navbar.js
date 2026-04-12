@@ -14,6 +14,7 @@ import Design from '../pages/design';
 import Code from '../pages/code';
 import Imagify from '../pages/imagify';
 import Pair from '../pages/pair';
+import Swiftly from '../pages/swiftly';
 import './navbar.css';
 
 const Navibar = () => {
@@ -47,6 +48,7 @@ const Navibar = () => {
         <Route path="/design/crediblemind" element={<Crediblemind />} />
         <Route path="/code/imagify" element={<Imagify />} />
         <Route path="/code/pair" element={<Pair />} />
+        <Route path="/code/swiftly" element={<Swiftly />} />
       </Routes>
     </Router>
   );
