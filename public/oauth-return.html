@@ -4,8 +4,12 @@
 <body>
 <p style="font-family:sans-serif;color:#666;text-align:center;margin-top:40px;font-size:14px">Completing bank connection...</p>
 <script>
-  // Relay Plaid OAuth params back to the local Mani app to complete handshake
-  window.location.href = 'http://localhost:5173/oauth-return' + window.location.search;
+  // Store the full URL (with oauth_state_id) so the app can pass it as receivedRedirectUri
+  localStorage.setItem('plaid_oauth_redirect_uri', window.location.href);
+
+  // Find the app — check stored origin first, fallback to same-origin (if app is deployed here)
+  var appOrigin = localStorage.getItem('mani_app_origin') || window.location.origin;
+  window.location.href = appOrigin + '/oauth-return';
 </script>
 </body>
 </html>
