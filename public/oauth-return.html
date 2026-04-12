@@ -4,11 +4,20 @@
 <body>
 <p style="font-family:sans-serif;color:#666;text-align:center;margin-top:40px;font-size:14px">Completing bank connection...</p>
 <script>
-  // Store the full URL (with oauth_state_id) so the app can pass it as receivedRedirectUri
-  localStorage.setItem('plaid_oauth_redirect_uri', window.location.href);
+  // Store the exact URL the bank redirected to — Plaid needs this as receivedRedirectUri
+  sessionStorage.setItem('plaid_oauth_redirect_uri', window.location.href);
 
-  // Find the app — check stored origin first, fallback to same-origin (if app is deployed here)
-  var appOrigin = localStorage.getItem('mani_app_origin') || window.location.origin;
+  // Allowlist of origins the app is allowed to run at
+  var ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+    'http://localhost:4173',
+    'http://localhost:3000',
+    'http://127.0.0.1:5173',
+  ];
+
+  var storedOrigin = localStorage.getItem('mani_app_origin');
+  var appOrigin = ALLOWED_ORIGINS.includes(storedOrigin) ? storedOrigin : ALLOWED_ORIGINS[0];
+
   window.location.href = appOrigin + '/oauth-return';
 </script>
 </body>
