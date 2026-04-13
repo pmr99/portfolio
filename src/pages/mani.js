@@ -25,6 +25,8 @@ const Mani = () => {
             </p>
             <p className="text"> So I decided to build my own. Mani is a personal finance dashboard that connects to real bank accounts via Plaid, pulls in live data, and gives me the exact views I care about. No subscription, no ads, just my own data on my own terms. It even has a Free Mode that uses only Plaid's free balance APIs, so you can track your net worth and asset distribution without paying anything at all.
             </p>
+            <p className="text"> I made the project fully open source so anyone can set it up with their own Plaid API keys. The repo includes a one-command setup script that handles everything: installing dependencies, running database migrations, deploying edge functions, and configuring Plaid credentials. If you've ever wanted a personal finance tracker without handing your data to a third-party service, this is it.
+            </p>
 
             <h1 className="main-header"> Features </h1>
 

@@ -36,7 +36,7 @@ const DesignBody = () => {
 const CodeBody = () => {
   return (
     <div className="body-container">
-      <Card classname="cardi" name="Mani" role="Personal Project" link="/code/mani" img={manicover} text="A personal finance dashboard that connects to real bank accounts via Plaid. Track spending, net worth, investments, and get smart insights, all without a monthly subscription." />
+      <Card classname="cardi" name="Mani" role="Personal Project" link="/code/mani" img={manicover} text="An open-source personal finance dashboard that connects to real bank accounts via Plaid. Track spending, net worth, investments, and get smart insights. Set it up with your own API keys, no subscription required." />
       <Card classname="cardi" name="Portfolio × Claude" role="Personal Project" link="/code/claudeskill" img={claudecover} text="Automating my portfolio with a custom Claude Code skill. One command takes raw project notes and produces a finished page with diagrams, cards, and routing." />
       <Card classname="cardi" name="Swiftly" role="Personal Project" link="/code/swiftly" img={swiftlycover} text="A fast, low-cost international tuition and rent payment platform for students in the U.S., leveraging USDC stablecoins to reduce transfer fees by over 96%." />
       <Card classname="cardi" name="PaiR" role="Personal Project" link="/code/pair" img={pairLogo} text="AI Driven Software Engineering Interviews utilizing OpenAI's Realtime API and Speech-to-text + Text-to-text + Text-to-speech AI models." />
