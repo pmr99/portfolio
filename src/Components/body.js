@@ -35,7 +35,7 @@ const DesignBody = () => {
 const CodeBody = () => {
   return (
     <div className="body-container">
-      <Card classname="cardi" name="Portfolio × Claude" role="Personal Project" link="/code/claudeskill" img={claudecover} text="How I went from StackOverflow rabbit holes to automating portfolio updates with a custom Claude Code skill — no IDE required." />
+      <Card classname="cardi" name="Portfolio × Claude" role="Personal Project" link="/code/claudeskill" img={claudecover} text="Automating my portfolio with a custom Claude Code skill. One command takes raw project notes and produces a finished page with diagrams, cards, and routing." />
       <Card classname="cardi" name="Swiftly" role="Personal Project" link="/code/swiftly" img={swiftlycover} text="A fast, low-cost international tuition and rent payment platform for students in the U.S., leveraging USDC stablecoins to reduce transfer fees by over 96%." />
       <Card classname="cardi" name="PaiR" role="Personal Project" link="/code/pair" img={pairLogo} text="AI Driven Software Engineering Interviews utilizing OpenAI's Realtime API and Speech-to-text + Text-to-text + Text-to-speech AI models." />
       <CardAlt classname="cardi" name="ACM CHI Conference 2024" role="HCI Research Author" link="https://arxiv.org/abs/2310.09985" img={chi} text={researchDesc} />
