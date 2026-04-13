@@ -5,7 +5,7 @@ import { PiFilmSlateBold } from "react-icons/pi";
 import { MdDesignServices } from "react-icons/md";
 import './home.css';
 
-const introText = "A repository for all my fun projects. Website designed, developed and maintained by yours truly :)";
+const introText = "Engineer, designer, and occasional filmmaker. This is where I put the things I build.";
 const designDescription = "I thrive on creating user-centric solutions across a diverse range of projects, from intuitive UI/UX experiences to innovative hardware designs and captivating graphics.";
 const codeDescription = "As a Computer Science major, I've embarked on exciting projects and research, delving into Full-Stack Mobile/Web Development, Database Management, Human-Computer Interaction, Generative AI, and more.";
 const filmDescription = "Filmmaking has been a passion of mine since I was 13. Writing and directing bring me immense joy, and I look forward to exploring this creative avenue even further.";
@@ -19,11 +19,11 @@ const Home = () => {
           <p className="home-intro">{introText}</p>
           <p className="home-links">
             <b>Latest projects: </b>
-            <a href="https://www.pradeepmanirathnam.com/code/pair">PaiR</a>
+            <a href="/code/mani">Mani</a>
             {", "}
-            <a href="https://director-ai.vercel.app/#home">DirectorAI</a>
+            <a href="/code/swiftly">Swiftly</a>
             {" & "}
-            <a href="https://imagify-six.vercel.app">Imagify</a>
+            <a href="/code/pair">PaiR</a>
           </p>
         </div>
         <div className="body-container">

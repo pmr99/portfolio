@@ -1,5 +1,6 @@
 import "./proj.css"
 import Footer from "../Components/footer"
+import maniLogo from "../Img/mani_logo.svg"
 import dashboard from "../Img/mani_dashboard.png"
 import wealth from "../Img/mani_wealth.png"
 import transactions from "../Img/mani_transactions.png"
@@ -14,7 +15,7 @@ const Mani = () => {
 
             <div className="viewproject">
                 <a href="https://github.com/pmr99/mani" style={{textDecoration:"none"}}>
-                    <img src={dashboard} alt="Mani Dashboard" width="100%" style={{paddingTop:"8px", paddingBottom:"0px", borderRadius:"12px"}} />
+                    <img src={maniLogo} alt="Mani" width="100%" style={{paddingTop:"8px", paddingBottom:"0px", maxHeight:"200px", objectFit:"contain"}} />
                     <p className="text" style={{textAlign:"center", paddingTop:"12px"}}><b>View on GitHub</b></p>
                 </a>
             </div>
@@ -156,13 +157,8 @@ const Mani = () => {
                 <li className="text"><b>Deployment:</b> Runs locally via <code>npm run dev</code>, one-command setup script handles all config</li>
             </ul>
 
-            <h1 className="main-header"> What I Learned </h1>
-            <p className="text"> Building Mani taught me a lot about working with financial APIs and the nuances of Plaid's pricing model. The Free Mode vs Full Mode distinction came from realizing that Plaid's balance API is completely free and unlimited, while transaction syncing costs per account per month. Designing the app to gracefully degrade between these two modes was an interesting challenge and ended up being one of the features I'm happiest with.
-            </p>
-            <p className="text"> I also got much more comfortable with Supabase's edge functions and row-level security during this project. Having the database enforce per-user data isolation at the query level, rather than relying on application code, made the whole backend feel much more robust.
-            </p>
-
             <p className="text" style={{paddingBottom:"12px"}}> If you liked this project, feel free to reach out to me!</p>
+            <p className="text" style={{paddingBottom:"12px", fontStyle:"italic", color:"gray"}}> Note: The screenshots above use Plaid's Sandbox API with test data, not real financial information.</p>
             <Footer />
         </div>
     )
