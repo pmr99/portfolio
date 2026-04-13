@@ -15,6 +15,7 @@ import Code from '../pages/code';
 import Imagify from '../pages/imagify';
 import Pair from '../pages/pair';
 import Swiftly from '../pages/swiftly';
+import ClaudeSkill from '../pages/claudeskill';
 import './navbar.css';
 
 const Navibar = () => {
@@ -49,6 +50,7 @@ const Navibar = () => {
         <Route path="/code/imagify" element={<Imagify />} />
         <Route path="/code/pair" element={<Pair />} />
         <Route path="/code/swiftly" element={<Swiftly />} />
+        <Route path="/code/claudeskill" element={<ClaudeSkill />} />
       </Routes>
     </Router>
   );

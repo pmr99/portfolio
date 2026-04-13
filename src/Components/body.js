@@ -13,6 +13,7 @@ import titleai from "../Img/aifinaltitle.png";
 import Imagifylogo from "../Img/imagifylogo.png";
 import pairLogo from "../Img/pairlogo.png";
 import swiftlycover from "../Img/intropage.png";
+import claudecover from "../Img/claudeSymbol.svg";
 
 const rumificoDesc = "Empowering Connections: Rumifico Redefines Parent-Child Communication for the College Journey, Fostering Seamless Interaction and Building Lasting Bonds.";
 const researchDesc = "Authored 'Prompting for Discovery: Flexible Sense-Making for AI Art-Making with Dreamsheets' along with Shm Garanganao Almeda, J.D. Zamfirescu-Pereira, Kyu Won Kim, Bjoern Hartmann. Conditionally accepted to CHI 2024.";
@@ -34,6 +35,7 @@ const DesignBody = () => {
 const CodeBody = () => {
   return (
     <div className="body-container">
+      <Card classname="cardi" name="Portfolio × Claude" role="Personal Project" link="/code/claudeskill" img={claudecover} text="How I went from StackOverflow rabbit holes to automating portfolio updates with a custom Claude Code skill — no IDE required." />
       <Card classname="cardi" name="Swiftly" role="Personal Project" link="/code/swiftly" img={swiftlycover} text="A fast, low-cost international tuition and rent payment platform for students in the U.S., leveraging USDC stablecoins to reduce transfer fees by over 96%." />
       <Card classname="cardi" name="PaiR" role="Personal Project" link="/code/pair" img={pairLogo} text="AI Driven Software Engineering Interviews utilizing OpenAI's Realtime API and Speech-to-text + Text-to-text + Text-to-speech AI models." />
       <CardAlt classname="cardi" name="ACM CHI Conference 2024" role="HCI Research Author" link="https://arxiv.org/abs/2310.09985" img={chi} text={researchDesc} />
